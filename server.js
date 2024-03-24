@@ -36,9 +36,6 @@ app.use('/api/v1/product', productRoute);
 app.use('*', function (req, res) {
     res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
-// app.get("/", (req, res) => {
-//     res.send("<h1>Welcome to ecommerce app</h1>");
-// });
 
 const port = process.env.PORT || 8000;
 
