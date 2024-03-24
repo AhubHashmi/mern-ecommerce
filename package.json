@@ -14,7 +14,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "antd": "^5.13.2",
     "bcrypt": "^5.1.1",
     "braintree": "^3.22.0",
     "braintree-web-drop-in-react": "^1.2.1",
